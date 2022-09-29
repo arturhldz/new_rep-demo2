@@ -5,6 +5,10 @@ int suma(int num1,int num2){
     return num1 + num2;
 }
 
+int resta(int num1,int num2){
+    return num1 - num2;
+}
+
 int main(int argc, char const *argv[])
 {
     int num1,num2;
@@ -15,6 +19,8 @@ int main(int argc, char const *argv[])
     scanf("%d",&num2);
 
     printf("El resutlado de la suma es : %d \n",suma(num1,num2));
+    printf("El resutlado de la resta es : %d \n",resta(num1,num2));
+    
     
     return 0;
 }
