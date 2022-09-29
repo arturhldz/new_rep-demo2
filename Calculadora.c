@@ -1,5 +1,5 @@
 /*
-Prorgama calculadora
+Prorgama calculadora v_2-0
 */
 
 #include<stdio.h>
