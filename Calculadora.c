@@ -15,9 +15,7 @@ int resta(int num1,int num2){
 int multi(int num1,int num2){
     return num1 * num2;
 }
-int div(int num1,int num2){
-    return num1 /num2;
-}
+/*Se elimino la funcion dividir*/
 
 int main(int argc, char const *argv[])
 {
@@ -31,7 +29,5 @@ int main(int argc, char const *argv[])
     printf("El resutlado de la suma es : %d \n",suma(num1,num2));
     printf("El resutlado de la resta es : %d \n",resta(num1,num2));
     printf("El resutlado de la multiplicacion es : %d \n",multi(num1,num2));
-    printf("El resultado de la divicion es : %d \n",div(num1,num2));
-    
     return 0;
 }
