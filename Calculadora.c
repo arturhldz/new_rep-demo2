@@ -1,10 +1,4 @@
-/*
-Prorgama calculadora v_2-0 
-*/
-/*
-Esta modificacion se hace para hace rpruebas en los repositorios github y para 
-realizar pull request de maneara arminica 
-*/
+
 
 #include<stdio.h>
 #include<stdlib.h>
